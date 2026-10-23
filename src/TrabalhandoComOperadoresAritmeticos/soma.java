@@ -2,15 +2,15 @@ package TrabalhandoComOperadoresAritmeticos;
 
 import java.util.Scanner;
 
-public class arit {
+public class soma {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Informe o valor 1");
-        float valor1 = scanner.nextFloat();
+       int valor1 = scanner.nextInt();
         System.out.println("Informe o valor 2");
-        float valor2 = scanner.nextFloat();
-
-        System.out.printf("%s / %s = %s \n", valor1 , valor2, valor1/valor2);
+       int valor2 = scanner.nextInt();
+//soma basica
+        System.out.printf("%s + %s = %s \n", valor1 , valor2, valor1+valor2);
 
 
     }

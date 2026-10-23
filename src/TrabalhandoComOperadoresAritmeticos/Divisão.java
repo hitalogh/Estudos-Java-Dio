@@ -9,7 +9,7 @@ public class Divisão {
         float valor1 = scanner.nextFloat();
         System.out.println("Informe o valor 2");
         float valor2 = scanner.nextFloat();
-
+//aloo
         System.out.printf("%s / %s = %s \n", valor1, valor2, valor1 / valor2);
 
 
