@@ -16,6 +16,8 @@ public class DiferençaIdade {
        String nomeP2 = scanner.nextLine();
        System.out.println("Qual a idade da segunda pessoa ?");
         int idadeP2 = scanner.nextInt();
+        //Math.abs vai remover o sinal negativo de um numero
+        //no caso evitando que a diferença de idade seja negativa
         int diferença = Math.abs(idadeP1 - idadeP2);
         System.out.println(" A diferença de idade entre " + nomeP1 + " e " + nomeP2 + " vai ser de  " + diferença + " anos ");
 
